@@ -1,9 +1,115 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
+  <link rel="stylesheet" href="style.css" />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Roboto"
+    rel="stylesheet"
+    type="text/css"
+  />
+
   <head>
-    <title>My blog</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Celluloid</title>
+  </head>
   <body>
-    <h1>Kia ora Taiao! (Hello World!)</h1> 
-    <p> This is the beginning of my website home page.</p>
-    <p> It will eventually contain a list of links to all my blogs. </p>
+    <h1 id="kane-background" class="darkred-text">
+      BEST 10 MOVIES OF ALL TIME
+    </h1>
+    <!--Working in the title-->
+    <p>
+      <a href="https//:www.citizenkane.com" target="_blank">
+        <img
+          class="smaller-image thick-green-border"
+          src="https://movieposters2.com/images/1535195-b.jpg"
+          alt="Citizen Kane Poster"
+      /></a>
+    </p>
+
+    <main>
+      <p>
+        <a href="#footer">SEND US YOUR FAVORITE MOVIE</a>
+      </p>
+
+      <img
+        class="medium-image"
+        src="https://variety.com/wp-content/uploads/2022/12/100-Greatest-Movies-Variety.jpg"
+        alt="Movie Collage"
+      />
+      <div>
+        <ul>
+          <li>Citizen Kane</li>
+          <li>Pulp Fiction</li>
+          <li>Inception</li>
+          <li>The Godfather</li>
+          <li>Full Metal Jacket</li>
+          <li>The Lord of the Rings: The Two Towers</li>
+          <li>The Matrix</li>
+          <li>The Silence of the Lambs</li>
+          <li>Taxi Driver</li>
+          <li>Vertigo</li>
+        </ul>
+      </div>
+
+      <p>It will eventually contain a list of links to all my blogs.</p>
+    </main>
+
+    <footer id="footer">
+      <form action="#">
+        <input type="INFO" placeholder="My favorite movie is..." required />
+        <button type="submit">Submit</button>
+      </form>
+      <form>
+        Which are your favorite Streaming Services
+        <label for="Netflix">
+          <input
+            id="Netflix"
+            type="checkbox"
+            value="netflix"
+            name="streaming"
+          />Netflix</label
+        >
+
+        <label for="Disney">
+          <input
+            id="Disney"
+            type="checkbox"
+            value="disney"
+            name="streaming"
+          />Disney</label
+        >
+
+        <label for="Amazon">
+          <input
+            id="Amazon"
+            type="checkbox"
+            value="amazon"
+            name="streaming"
+          />Amazon</label
+        >
+
+        <label for="Hbo">
+          <input
+            id="Hbo"
+            type="checkbox"
+            value="hbo-neon"
+            name="streaming"
+          />HBO/NEON</label
+        >
+        <button type="submit">Submit</button>
+      </form>
+    </footer>
+    <p>
+      Here you can see the
+      <a
+        href="https://www.imdb.com/search/title/?groups=top_100&sort=user_rating,desc"
+        target="_blank"
+        >IMDB "Top 100"</a
+      >
+      Movies of all time
+    </p>
+    <p>
+      Know a bit more about
+      <a href="blog/te-houtaewa-template.html" target="_blank">ME</a>
+    </p>
   </body>
 </html>

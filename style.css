@@ -1,0 +1,48 @@
+@-ms-viewport {
+  width: device-width; }
+
+body{
+ background-color: rgb(233, 238, 239);
+
+}
+h1{
+  text-align: center;
+}
+.darkred-text {
+  color: rgb(75, 0, 2);
+}
+
+
+li {
+  font-size: 18px;
+  font-family: Roboto, sans-serif;
+  color: rgb(160, 0, 2);
+}
+
+.medium-image{
+  width: 900px;
+
+}
+
+.smaller-image{
+  width: 100px
+
+}
+
+.thick-green-border{
+  border-color: rgb(0, 10, 0);
+  border-width: 8px;
+  border-style: solid;
+  border-radius: 50%;
+}
+
+#kane-background{
+
+background-color: whitesmoke;
+}
+
+[type='checkbox']{
+margin: 20px 0px 15px 0px;
+}
+
+
