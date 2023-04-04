@@ -4,14 +4,8 @@
 body{
  background-color: rgb(233, 238, 239);
 
-}
-h1{
-  text-align: center;
-}
-.darkred-text {
-  color: rgb(75, 0, 2);
-}
 
+}
 
 li {
   font-size: 18px;
@@ -21,6 +15,8 @@ li {
 
 .medium-image{
   width: 900px;
+  
+
 
 }
 
@@ -37,12 +33,29 @@ li {
 }
 
 #kane-background{
-
+color: rgb(75, 0, 2);
 background-color: whitesmoke;
+display: flex;
+justify-content: center;
+
 }
 
 [type='checkbox']{
 margin: 20px 0px 15px 0px;
+}
+
+.main-picture{
+
+  background-color: black;
+  display: flex;
+  justify-content: center;
+}
+
+.main-title{
+  background-color: rgb(199, 181, 181);
+  display: flex;
+  justify-content: center;
+
 }
 
 
