@@ -1,62 +1,101 @@
 @-ms-viewport {
-  width: device-width; }
-
-body{
- background-color: rgb(233, 238, 239);
- font-family: sans-serif;
-
-
-}
-
-li {
-  font-size: 18px;
-  font-family: Roboto, sans-serif;
-  color: rgb(160, 0, 2);
-}
-
-.medium-image{
-  width: 900px;
+  width: device-width;}
   
+  body{
+    margin:0; 
+    padding:0; 
+    font-size:15px; 
+    font-family:'Raleway';
+    color:#e5cfcf; 
+    background-color:#252121;}
+ 
+   
+/*--------------General-----------------------*/
+
+a{
+  outline:none; 
+  text-decoration:none;
+  color: inherit;}
+
+h1, h2, h3, h4, h5, h6{
+      margin:0; 
+      padding:0; 
+      font-size:22px; 
+      font-weight:normal; 
+      font-style:normal; 
+      line-height:normal;}
+
+#header, #container, #footer{
+        display:block; 
+        width:960px; 
+        margin:0 auto;}
+
+/*------------------Header--------------------*/
+
+#header{
+  padding:20px 0;}
+
+#header #hgroup{
+  float:left; 
+  margin:0 0 20px 0;}
+
+#header #hgroup h1, #header #hgroup h2{
+  font-weight:normal; 
+  font-style:normal; 
+  text-transform:none;}
+
+#header #hgroup h1{
+  font-size:36px;}
+
+#header #hgroup h2{
+  font-size:13px;}
+
+#header form{
+  display:block; 
+  width:320px; 
+  float:right; 
+  margin:20px 0; 
+  padding:0;}
+
+#header form input{
+  display:block; 
+  float:left; 
+  width:200px; 
+  margin:0; 
+  padding:5px; 
+  color:#C0BAB6; 
+  background-color:#2c2929; 
+  border:1px solid #666666;}
+
+#header form #sf_submit{
+  display:block; 
+  float:right; 
+  width:70px; 
+  padding:5px;
+  font-size:12px; 
+  font-weight:bold; 
+  text-transform:uppercase; 
+  color:#FFFFFF; 
+  background-color:#670303; 
+  border:none; 
+  cursor:pointer;}
 
 
+
+#header nav{
+  display:block; width:100%; margin:0; padding:20px 0; color:#C0BAB6; background-color:#232323; clear:both;}
+#header nav ul{
+  padding:0 20px;}
+#header nav li{
+  display:inline; margin-right:25px; text-transform:uppercase;}
+#header nav li a{
+  color:#C0BAB6; background-color:#232323;}
+#header nav li a:hover{
+  color:#ff0022; background-color:#232323;}
+
+/*---------------------Overrides--------------*/  
+html *{
+
+  font-family:'Raleway'
 }
-
-.smaller-image{
-  width: 100px
-
-}
-
-.thick-green-border{
-  border-color: rgb(0, 10, 0);
-  border-width: 8px;
-  border-style: solid;
-  border-radius: 50%;
-}
-
-#kane-background{
-color: rgb(75, 0, 2);
-background-color: whitesmoke;
-display: flex;
-justify-content: center;
-
-}
-
-[type='checkbox']{
-margin: 20px 0px 15px 0px;
-}
-
-.main-picture{
-
-  background-color: black;
-  display: flex;
-  justify-content: center;
-}
-
-.main-title{
-  background-color: rgb(199, 181, 181);
-  display: flex;
-  justify-content: center;
-
-}
-
 
