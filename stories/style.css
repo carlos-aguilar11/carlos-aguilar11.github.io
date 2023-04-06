@@ -38,11 +38,8 @@ div.wrapper{
   padding:0; 
   text-align:left;}
   
-  .row1, .row1 a .row2 a{
+  .row1, .row1 a{
     color:#C0BAB6;}
-  .row2 {
-    color:#fdd6be;
-  }
 
 /*------------------Header--------------------*/
 

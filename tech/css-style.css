@@ -24,7 +24,7 @@ h1, h2, h3, h4, h5, h6{
       font-style:normal; 
       line-height:normal;}
 
-#header, #footer{
+#header2, #footer{
       display:block; 
       width:960px; 
       margin:0 auto;}
@@ -38,47 +38,46 @@ div.wrapper{
   padding:0; 
   text-align:left;}
   
-  .row1, .row1 a .row2 a{
-    color:#C0BAB6;}
-  .row2 {
-    color:#fdd6be;
-  }
+  .row1, .row1 a{
+    color:#b9ada5;}
 
 /*------------------Header--------------------*/
 
-#header{
+#header2{
   
   padding:20px;
-  background: linear-gradient(rgba(255, 255, 255, 0.144), rgba(255,255,255,.5)), url(images/bella-and-papi.jpg);
+  background: linear-gradient(rgba(255, 255, 255, 0.249), rgba(255, 255, 255, 0.216)), url(../images/laptop.jpg);
   /*-- background-attachment: scroll; -- Try to use it with full WebSite*/
   background-size: cover;
-  background-position: -40% 40.5%;}
+  background-position: 0% 30.5%;
+  background-size: 100%;}
 
-#header #hgroup{
+
+#header2 #hgroup{
   float:left; 
   margin:0 0 20px 0;}
 
-#header #hgroup h1, #header #hgroup h2{
- position: relative; 
+#header2 #hgroup h1, #header2 #hgroup h2{
+  position: relative;
   font-family: 'Raleway'; 
   font-style:normal; 
   text-transform:none;}
 
-#header #hgroup h1{
+#header2 #hgroup h1{
   font-size:42px;
   font-weight:bold}
 
-#header #hgroup h2{
+#header2 #hgroup h2{
   font-size:18px;}
 
-#header form{
+#header2 form{
   display:block; 
   width:320px; 
   float:right; 
   margin:20px 0; 
   padding:0;}
 
-#header form input{
+#header2 form input{
   display:block; 
   float:left; 
   width:200px; 
@@ -88,7 +87,7 @@ div.wrapper{
   background-color:#2c2929; 
   border:1px solid #666666;}
 
-#header form #sf_submit{
+#header2 form #sf_submit{
   display:block; 
   float:right; 
   width:70px; 
@@ -102,16 +101,16 @@ div.wrapper{
   cursor:pointer;}
 
 
-#header nav{
+#header2 nav{
   display:block; width:100%; margin:0; padding:20px 0; color:#C0BAB6; background-color:#232323; clear:both;}
-#header nav ul{
+#header2 nav ul{
     display: flex;
   padding:0 20px;}
-#header nav li{
+#header2 nav li{
   display:inline; margin-right:25px; text-transform:uppercase;}
-#header nav li a{
+#header2 nav li a{
   color:#C0BAB6; background-color:#232323;}
-#header nav li a:hover{
+#header2 nav li a:hover{
   color:#fddd9d; background-color:#232323;}
 
 /*---------------------Overrides--------------*/  
@@ -125,10 +124,14 @@ span.c1{
   font-weight:bold;
 }
 
+span.c2{
+  color:#361d1d;
+  font-weight:bold;
+}
 
 @media (max-width: 875px) {
   .row1, .row1 a {
-    color:#232323;
+    color:#ebe3e3;
     font-weight: bold;
   }
 }
