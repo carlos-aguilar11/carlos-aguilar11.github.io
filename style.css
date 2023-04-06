@@ -24,17 +24,34 @@ h1, h2, h3, h4, h5, h6{
       font-style:normal; 
       line-height:normal;}
 
-#header, #footer{
+#header, #footer, .container{
       display:block; 
       width:960px; 
       margin:0 auto;}
+
+p {
+  font-size:medium;
+  font-family: 'Raleway';
+  color: #232323;
+
+}
+
+img{
+  position: relative;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  object-fit: cover;
+  width: 90%;
+  
+}
 
 /* ----------------------------------------------Wrapper-------------------------------------*/
 
 div.wrapper{
   display:flex; 
   width:100%;
-  margin:0; 
+  margin:0px 0px 20px 0px; 
   padding:0; 
   text-align:left;}
   
@@ -114,6 +131,42 @@ div.wrapper{
 #header nav li a:hover{
   color:#fddd9d; background-color:#232323;}
 
+.container {
+  margin: 0 auto;
+  height: 100%;
+  padding: 20px 20px;
+  position:relative;
+  display:flex;
+  background-color: #f8eded;}
+
+.box1 {
+    width: 55%;
+    display: block;
+    padding: 5px;
+    margin-bottom: 30px;
+    text-align: justify;
+}
+
+.box2 {
+    display: flex;
+    float: right;
+    align-items:center;
+    padding: 10px;
+    margin-left: 20px;
+    text-align: justify;
+}
+
+.box3 {
+  width: 100%;
+  display: block;
+  padding: 5px;
+  margin-bottom: 30px;
+  text-align: justify;
+}
+
+.box4 {
+  display: inline-block;
+}
 /*---------------------Overrides--------------*/  
 html *{
 
@@ -123,6 +176,11 @@ html *{
 span.c1{
   color:#232323;
   font-weight:bold;
+}
+span.c2{
+  color:#232323;
+  font-size: 24px;
+  font-weight: bold;
 }
 
 

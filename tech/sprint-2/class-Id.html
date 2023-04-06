@@ -1,43 +1,200 @@
 <!DOCTYPE html>
 <html lang="en">
   <!--Stylesheet-->
+  <link rel="stylesheet" href="/style.css" />
   <link rel="stylesheet" href="../css-style.css" />
-  <link rel="stylesheet" href="../style.css"/>
   <!-- Google Font-->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;600&family=Roboto+Condensed&display=swap" 
-  rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;600&family=Roboto+Condensed&display=swap"
+    rel="stylesheet"
+  />
 
   <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="UTF-8" />
     <title>Carlos Way</title>
-    </head>
-    <body>
-      <div class="wrapper row1">
-        <header id="header2">
-          <div id="hgroup">
-            <h1><a href="#">Class <span class="c1"> vs </span><span class="c2">Id</span></a></h1>
-            <h2><span class="c1">Just a bit</span> of eve<span class="c1">rything</span></h2>
+  </head>
+  <body>
+    <div class="wrapper row1">
+      <header id="header2">
+        <div id="hgroup">
+          <h1>
+            <a href="#"
+              >Class <span class="c1"> vs </span><span class="c2">Id</span></a
+            >
+          </h1>
+          <h2>
+            <span class="c1">Just a bit</span> of eve<span class="c1"
+              >rything</span
+            >
+          </h2>
+        </div>
+        <form action="#" method="post">
+          <fieldset>
+            <input
+              type="text"
+              value="Search My Website&hellip;"
+              onFocus="this.value=(this.value=='Search Our Website&hellip;')? '' : this.value ;"
+              required
+            />
+            <input type="submit" id="sf_submit" value="submit" />
+          </fieldset>
+        </form>
+        <nav>
+          <ul>
+            <li><a href="../../tech/tech.html">More Tech</a></li>
+            <li><a href="../../movies/movies.html">Movies</a></li>
+            <li><a href="#">Some Stories</a></li>
+            <li><a href="../../main.html">Home</a></li>
+          </ul>
+        </nav>
+      </header>
+    </div>
+    <div class="wrapper row2">
+      <div class="container clear">
+        <div class="box3">
+          <span class="c2">Class vs Id. Which should you use?</span>
+          <p>
+            Classes and IDs are both element selectors and their function are to
+            identify an element based on the assigned parameters. The difference
+            between them is that Class can be applied to a group of HTML
+            elements on a single page and ID is applied only to one HTML
+            element.
+          </p>
+          <p>
+            When you are starting your journey of learning to code, it's hard to
+            identify when to use Classes vs IDs. I feel like there isn’t a wrong
+            choice and you can easily use one or the other as they are very
+            similar. So the way I wrap my mind around it is by thinking about
+            which option is going to give me a better and clearer workspace.
+            But, you could just think of what you want to achieve with this
+            selector, changing one specific element, many, changing part of one,
+            combining them together, the options are many.
+          </p>
+          <p>
+            The best way to understand them and how to use them is with
+            examples, so let’s say we have this basic HTML document.
+          </p>
+          <br />
+          <div><img src="../../images/Sprint 2/class-id-01.png" /></div>
+          <br />
+          <p>And it would look like this on our website:</p>
+          <br />
+          <div><img src="../../images/Sprint 2/class-id-02.png" /></div>
+          <br />
+          <p>
+            Let’s add the same attributes to our 'h1' and our first paragraph
+            'p'. All we have to do is add the same class to both tags. Like
+            this:
+          </p>
+          <br />
+          <div><img src="../../images/Sprint 2/class-id-03.png" /></div>
+          <br />
+          <p>
+            Then, we add the selector class to our CSS file, always starting
+            with a dot.
+          </p>
+          <br />
+          <div><img src="../../images/Sprint 2/class-id-04.png" /></div>
+          <br />
+          <p>And now our website is looking like this:</p>
+          <br />
+          <div><img src="../../images/Sprint 2/class-id-05.png" /></div>
+          <br />
+          <p>
+            But now we decided that, even though we want to keep that class for
+            our paragraph and maybe use it in other elements, we want to give
+            our ‘h1’ some specific attributes. So we add an id inside our ‘h1’
+            tag.
+          </p>
+          <br />
+          <div><img src="../../images/Sprint 2/class-id-06.png" /></div>
+          <br />
+          <p>
+            Then we add the id selector to our CSS, which by the way starts with
+            a #.
+          </p>
+          <br />
+          <div><img src="../../images/Sprint 2/class-id-07.png" /></div>
+          <br />
+          <p>Now, our website is looking a bit different.</p>
+          <br />
+          <div><img src="../../images/Sprint 2/class-id-08.png" /></div>
+          <br />
+          <p>
+            Basically, that’s what you can do with each of them, but the awesome
+            thing is that you can mix them up and use them together.
+          </p>
+          <p>
+            Let’s say we want to keep our initial class (.start) for our 'h1'
+            and first paragraph 'p', but we want to add a few extra attributes
+            to our 'h1'. Then we can use both selectors separated in our HTML
+            document just by one space.
+          </p>
+          <br />
+          <div><img src="../../images/Sprint 2/class-id-09.png" /></div>
+          <br />
+          <p>
+            Then we can change our id in our CSS file and add the attributes we
+            want to have exclusively in our 'h1'.
+          </p>
+          <br />
+          <div><img src="../../images/Sprint 2/class-id-10.png" /></div>
+          <br />
+          <p>And now our website looks like this:</p>
+          <br />
+          <div><img src="../../images/Sprint 2/class-id-11.png" /></div>
+          <br />
+          <p>
+            As I said you can mix them up, but you can also use 2 classes
+            together in the same tag. So, let’s say we want to keep the basic
+            attributes we already have, but we want to add extra attributes to
+            our first paragraph 'p'. First, we add a new class to our tag, in
+            this case, it’s called border1, but you can name it however you
+            want.
+          </p>
+          <br />
+          <div><img src="../../images/Sprint 2/class-id-12.png" /></div>
+          <br />
+          <p>Then we add the class selector to our CSS file. Like this:</p>
+          <br />
+          <div><img src="../../images/Sprint 2/class-id-13.png" /></div>
+          <br />
+          <p>
+            So now, after we added those classes and id selectors, our HTML and file looks like this:
+          </p>
+          <br />
+          <div>
+            <img src="../../images/Sprint 2/class-id-14.png" />
+            <br>
+            <p>
+              ... Our CSS file like this:
+            </p>
+            <br>
+            <img
+              src="../../images/Sprint 2/class-id-15.png"
+            />
           </div>
-            <form action="#" method="post">
-              <fieldset>
-                <input type="text" value="Search My Website&hellip;" onFocus="this.value=(this.value=='Search Our Website&hellip;')? '' : this.value ;" required>
-                <input type="submit" id="sf_submit" value="submit">
-              </fieldset>
-            </form>
-            <nav>
-              <ul>
-                <li><a href="../../tech/tech.html">More Tech</a></li>
-                <li><a href="#">Some Stories</a></li>
-                <li><a href="../../movies/movies.html">Movies</a></li>
-                <li><a href="../../main.html">Home</a></li>
-                
-              </ul>
-            </nav>
-          </header>
+          <br />
+          <p>
+            And finally, now our website is looking a bit different again and that was
+            exactly what we wanted.
+          </p>
+          <br />
+          <div><img src="../../images/Sprint 2/class-id-16.png" /></div>
+          <br />
+          <p>
+            I hope these examples help you to understand the difference between
+            class and id, and gave you a better idea about when and how to use
+            them.
+          </p>
+        </div>
       </div>
+    </div>
+  </body>
+  <footer>
     
-    </body>
+  </footer>
 </html>

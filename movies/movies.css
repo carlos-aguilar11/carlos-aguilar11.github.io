@@ -129,3 +129,11 @@ span.c1{
     font-weight: bold;
   }
 }
+
+/*-------------Temporal-------------------*/
+
+#maintenance {
+  color:#f40707;
+  font-size: 48px;
+  font-weight: bold;
+}
