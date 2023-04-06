@@ -117,16 +117,7 @@ div.wrapper{
 html *{
 
   font-family:'Raleway'
-}
 
-span.c1{
-  color:#232323;
-  font-weight:bold;
-}
-
-span.c2{
-  color:#361d1d;
-  font-weight:bold;
 }
 
 @media (max-width: 875px) {

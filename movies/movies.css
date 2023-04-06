@@ -117,12 +117,6 @@ html *{
   font-family:'Raleway'
 }
 
-span.c1{
-  color:#232323;
-  font-weight:bold;
-}
-
-
 @media (max-width: 875px) {
   .row1, .row1 a {
     color:#232323;
