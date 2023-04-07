@@ -144,15 +144,16 @@ div.wrapper{
     display: block;
     padding: 5px;
     margin-bottom: 30px;
-    text-align: justify;
+    text-align:left;
 }
 
 .box2 {
     display: flex;
     float: right;
-    align-items:center;
+    align-items:start;
     padding: 10px;
     margin-left: 20px;
+    margin-top:20px;
     text-align: justify;
 }
 
@@ -165,8 +166,17 @@ div.wrapper{
 }
 
 .box4 {
-  display: inline-block;
+  width: 86%;
+  display: block;
+  padding: 5px;
+  margin-bottom: 5px;
+  text-align: justify;
+  
 }
+
+/*--------------------Menu Buttons-------------*/
+
+
 /*---------------------Overrides--------------*/  
 html *{
 
@@ -180,6 +190,17 @@ span.c1{
 span.c2{
   color:#232323;
   font-size: 40px;
+  font-weight: bold;
+}
+
+span.c3{
+  color:#340101;
+  font-size: 18px;
+  font-weight: bold;
+}
+span.c4{
+  color:#220101;
+  font-size: 18px;
   font-weight: bold;
 }
 
