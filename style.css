@@ -24,7 +24,7 @@ h1, h2, h3, h4, h5, h6{
       font-style:normal; 
       line-height:normal;}
 
-#header, #footer, .container{
+#header, #header2, #footer, .container{
       display:block; 
       width:960px; 
       margin:0 auto;}
@@ -134,14 +134,12 @@ div.wrapper{
 
 .container {
   margin: 0 auto;
-  height: 100%;
   padding: 20px 20px;
   position:relative;
   display:flex;
   background-color: #f8eded;
-  flex-direction:row;}
-
-
+  flex-direction:row;
+  }
 
 .box1 {
     width: 55%;
@@ -180,6 +178,7 @@ div.wrapper{
 
 .box5 {
   width:200px;
+  position: relative;
   text-align:left;
   display:block;
   background-color: transparent;
@@ -240,4 +239,14 @@ span.c5{
     color:#232323;
     font-weight: bold;
   }
+}
+@media (max-width: 886px) {
+.box5 
+{display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+    width: fit-content;
+}
 }
