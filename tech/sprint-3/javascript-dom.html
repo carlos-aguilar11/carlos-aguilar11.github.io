@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+  <!--Stylesheet-->
+  <link rel="stylesheet" href="/style.css" type="text/css" />
+  <link rel="stylesheet" href="../css-style.css" type="text/css" />
+  <!-- Google Font-->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;600&family=Roboto+Condensed&display=swap"
+    rel="stylesheet"
+  />
+
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="UTF-8" />
+    <title>Carlos Way</title>
+  </head>
+  <body>
+    <div class="wrapper row1">
+      <header id="header2">
+        <div id="hgroup">
+          <h1>
+            Java<span class="c1">Script</span
+            ><span class="c2"> Fundamentals</span>
+            >
+          </h1>
+          <h2>
+            <span class="c1">Just a bit</span> of eve<span class="c1"
+              >rything</span
+            >
+          </h2>
+        </div>
+        <form action="#" method="post">
+          <fieldset>
+            <input
+              type="text"
+              value="Search My Website&hellip;"
+              onFocus="this.value=(this.value=='Search Our Website&hellip;')? '' : this.value ;"
+              required
+            />
+            <input type="submit" id="sf_submit" value="submit" />
+          </fieldset>
+        </form>
+        <nav>
+          <ul>
+            <li><a href="../../tech/tech.html">More Tech</a></li>
+            <li><a href="/blog/blog.html">Blog</a></li>
+            <li><a href="../../movies/movies.html">Cinema</a></li>
+            <li><a href="#">Some Stories</a></li>
+            <li><a href="../../index.html">Home</a></li>
+          </ul>
+        </nav>
+      </header>
+    </div>
+    <div class="wrapper row2">
+      <div class="container clear">
+        <div class="box3">
+          <span class="c2">JavaScript & DOM</span>
+          <div>
+            <p><span class="c3"> HTML, CSS and Javascript analogy</span></p>
+            <p>
+              Think about your favourite food, and imagine that you want to cook
+              it for your family. So, its base ingredients would be the HTML of
+              your recipe. The different extra things you want to add to it, to
+              make it taste the way you like, the spices you want to use, those
+              my friend would be your CSS. And finally, the stove, the oven, and
+              all the cookware that allows you to play with the ingredients,
+              changing their shape and texture, or the cutlery that allows your
+              family to interact with your food and change its shape, all of
+              that would be the Javascript.
+            </p>
+          </div>
+          <div>
+            <p><span class="c3"> Control flow, functions and loops</span></p>
+            <p>
+              Control flow is basically the order in which the computer executes
+              instructions from top to bottom in a script.
+            </p>
+            <p>
+              Functions are one of the most fundamental building tools in
+              Javascript, they are like automated orders that you create, so
+              every time you use them your computer does what you expect. They
+              are very helpful, as they can be used multiple times.
+            </p>
+            <p>
+              And loops are a sequence of these instructions that is continually
+              repeated until a specific condition is reached.
+            </p>
+            <p>
+              I know it may sound confusing, so let’s try to explain it with
+              something more familiar. Let’s say you are the kind of person who
+              showers every day - doesn’t matter if you are not, the example
+              would work anyway, I’m not judging by the way -. Ok, so the normal
+              process of a shower, taking away all the extra things you like or
+              may need to do before, is like turning on the extractor/fan,
+              getting in the shower, turning on the water, shampoo, soap, rinse,
+              dry.
+            </p>
+            <p>
+              So, the process of having the shower, starting by turning on the
+              extractor is like the control flow of a program. It goes from top
+              to bottom in that order, you wouldn’t dry before you rinse
+              yourself, or you wouldn’t rinse before you use shampoo or soap,
+              that’s basically that idea.
+            </p>
+            <p>
+              The action of having it, saying to yourself: “Ok mate, I think we
+              need one!”, the showering perse, that would be the function, it
+              allows this process of having a shower to run from one point to
+              the end. And there is where loops are used, they tell this
+              function to end at a certain point. The loops basically stop you
+              from jumping again in the shower and doing the function over and
+              over again, you wouldn’t shower again just after you dried
+              yourself, well maybe if you had an “accident”, but as I said
+              before, I’m not judging.
+            </p>
+            <p>And it would look like this in your Javascript document:</p>
+            <br />
+            <div><img src="/images/Sprint 3/shower-function.png" /></div>
+            <br />
+            <p></p>
+            <br />
+            <div><img src="/images/Sprint 3/shower-log.png" /></div>
+            <br />
+          </div>
+          <div>
+            <p><span class="c3">The DOM</span></p>
+            <p>
+              The term DOM stands for Document Object Model and is basically an
+              object representation of your HTML document, it defines its
+              structure and allows programmers to access and manipulate the
+              elements inside of that HTML document. It's commonly seen as a
+              “tree structure” (see the picture).
+            </p>
+            <br />
+            <div><img src="/images/Sprint 3/dom.png" /></div>
+            <br />
+            <p>
+              I know it doesn’t sound simple, so let’s take back the first
+              example on this blog. Do you remember you were cooking your
+              favourite meal? Well, let’s establish that your dish is your
+              website, the main ingredients are your HTML, your spices and extra
+              ingredients are your CSS, and all the utensils and cookware are
+              your JavaScript.
+            </p>
+            <p>
+              So, how can we explain the DOM with that example, simple, the DOM
+              would be your kitchen, it gives you access to all the tools that
+              allow you to manipulate and create your meal. Is the space where
+              you can create and taste and if anything goes wrong you put it on
+              the rubbish and start again.
+            </p>
+          </div>
+          <div>
+            <p><span class="c3">Arrays and Objects</span></p>
+            <p>
+              Although they are both sort of storage tools that you can use in
+              Javascript to store, access and modify information (values). they
+              are different.
+            </p>
+            <p>
+              You can use Arrays to store multiple data, like a list of things.
+              Let’s take back the last example from the DOM, let’s say you have
+              your list of ingredients, they would look like this in your
+              JavaScript file:
+            </p>
+            <br />
+            <div><img src="/images/Sprint 3/ingredients.png" /></div>
+            <br />
+            <p></p>
+            <br />
+            <div><img src="/images/Sprint 3/ingredients-log.png" /></div>
+            <br />
+            <p>
+              And let’s say you don’t have cornstarch and you want to replace it
+              with tapioca, so we are going to manipulate the value inside the
+              array:
+            </p>
+            <br />
+            <div><img src="/images/Sprint 3/swap-ingredient.png" /></div>
+            <br />
+            <p></p>
+            <br />
+            <div><img src="/images/Sprint 3/swap-ingredient-log.png" /></div>
+            <br />
+            <p>
+              In the other hand, objects are used to represent a “thing” inside
+              your code. If you want to save some information about something
+              you would use an object. Following the same example, let’s say you
+              want to specify some information about your ingredients.
+            </p>
+            <br />
+            <div><img src="/images/Sprint 3/product-object.png" /></div>
+            <br />
+            <p></p>
+            <br />
+            <div><img src="/images/Sprint 3/product-object-log.png" /></div>
+            <br />
+            <p>
+              Then you want to change part of the value because you got the name
+              of the brand wrong:
+            </p>
+            <br />
+            <div><img src="/images/Sprint 3/product-swap.png" /></div>
+            <br />
+            <p></p>
+            <br />
+            <div><img src="/images/Sprint 3/product-swap-log.png" /></div>
+            <br />
+            <p>
+              So, that would basically be the difference between them. 
+             </p>
+             <p> 
+              Hope you enjoy all the material and that it was easy to understand the concepts. 
+            </p>
+          </div>
+
+          <br />
+
+          <br />
+        </div>
+      </div>
+    </div>
+  </body>
+  <footer></footer>
+</html>
