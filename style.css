@@ -45,6 +45,25 @@ img{
   width: 90%;
   
 }
+/*-------------------------Tables--------------------*/
+
+table {
+  border-collapse: separate;
+  text-indent: initial;
+  border-spacing: 1.5px;
+}
+
+tbody {
+  display: table-row-group;
+  vertical-align: middle;
+  border-color: inherit;
+}
+
+tr {
+  display: table-row;
+  vertical-align: inherit;
+  border-color: inherit;
+}
 
 
 /* ----------------------------------------------Wrapper-------------------------------------*/
@@ -232,6 +251,11 @@ span.c4{
 span.c5{
   color:#220101;
   font-size: 16px;
+  font-weight: bold;
+}
+span.c6{
+  color:white;
+  font-size: 40px;
   font-weight: bold;
 }
 @media (max-width: 875px) {
