@@ -29,7 +29,7 @@ h1, h2, h3, h4, h5, h6{
       width:960px; 
       margin:0 auto;}
 
-p, ol {
+p, ol, th, td{
   font-size:medium;
   font-family: 'Raleway';
   color: #232323;
@@ -54,6 +54,7 @@ table {
 }
 
 tbody {
+  background-color: #fbfbfb;
   display: table-row-group;
   vertical-align: middle;
   border-color: inherit;
@@ -65,6 +66,23 @@ tr {
   border-color: inherit;
 }
 
+td {
+  display: table-cell;
+  vertical-align: inherit;
+  text-align: left;
+}
+
+th {
+  display: table-cell;
+  vertical-align: inherit;
+  font-weight: bold;
+  text-align:center;
+}
+
+td, th {
+  border: 2px solid rgb(72, 1, 1);
+  padding: 8px;
+}
 
 /* ----------------------------------------------Wrapper-------------------------------------*/
 
@@ -180,11 +198,11 @@ div.wrapper{
 }
 
 .box3 {
-  width: 100%;
+  width: 95%;
   display: block;
   padding: 5px;
-  margin-bottom: 30px;
-  text-align: justify;
+  margin-bottom: 5px;
+  text-align:start;
 }
 
 .box4 {
@@ -258,6 +276,9 @@ span.c6{
   font-size: 40px;
   font-weight: bold;
 }
+
+
+
 @media (max-width: 875px) {
   .row1, .row1 a {
     color:#232323;
